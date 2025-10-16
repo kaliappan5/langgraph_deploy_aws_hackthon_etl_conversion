@@ -1,0 +1,18 @@
+<job>
+  <steps>
+    <step id="1" name="Extract Customers">
+      <type>extract</type>
+      <source>mysql</source>
+      <table>customers</table>
+    </step>
+    <step id="2" name="Filter Active">
+      <type>filter</type>
+      <condition>status = 'active'</condition>
+    </step>
+    <step id="3" name="Load to S3">
+      <type>load</type>
+      <destination>s3://fs-data-output/customers_active</destination>
+      <format>parquet</format>
+    </step>
+  </steps>
+</job>

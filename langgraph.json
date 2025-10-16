@@ -1,0 +1,9 @@
+{
+  "python_version": "3.11",
+  "dockerfile_lines": [],
+  "dependencies": ["."],
+  "graphs": {
+    "etl_agent": "./src/graph.py:build_graph"
+  },
+  "env": ".env"
+}

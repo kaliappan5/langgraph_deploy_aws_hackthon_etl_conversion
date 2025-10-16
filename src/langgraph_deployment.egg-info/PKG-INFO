@@ -1,0 +1,20 @@
+Metadata-Version: 2.4
+Name: langgraph-deployment
+Version: 0.1.0
+Summary: LangGraph Deployment
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Requires-Dist: boto3>=1.39.3
+Requires-Dist: langchain-aws>=0.2.27
+Requires-Dist: langchain[openai]>=0.3.24
+Requires-Dist: langgraph>=0.3.34
+Requires-Dist: langgraph-api>=0.1.16
+Requires-Dist: langgraph-cli[inmem]>=0.2.7
+Requires-Dist: langgraph-sdk>=0.1.63
+Requires-Dist: pydantic>=2.11.3
+Requires-Dist: s3fs>=0.4.2
+Requires-Dist: xmltodict>=0.14.2
+
+# LangGraph Deployment
+
+To learn more about this repo, please read [How to Build and Deploy an AI Agent Using LangGraph from Scratch
